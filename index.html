@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Toe Game</title>
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" 
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=refresh" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+<body class="font-rubik m-0 bg-[#192a32] ">
+    <header class="flex justify-between pt-2.5 px-9 text-lg font-black items-center mb-6">
+        <div class="currentPlayer text-5xl">
+            <span class="Player_x text-[#31c4be]">x</span>
+            <span class="Player_o text-[#f2b135]">o</span>
+        </div>    
+        <h1 class="bg-[#1f3540] p-2.5 text-[#a8bec9] rounded-md">Tic Tac toe Game</h1>    
+        <div class="reload inline-flex items-center justify-center bg-[#a8bec9] w-10 h-10 rounded-md cursor-pointer duration-30 hover:bg-[#e0e0e0]">
+            <span class="material-symbols-outlined  text-2xl text-[#333]">refresh</span>
+        </div>
+            </header>
+    <!-- <div class="board"></div> -->
+    <div class="board grid grid-cols-[100px_100px_100px] grid-rows-[100px_100px_100px] justify-center gap-2.5 "></div>
+    <script src="main.js"></script>
+</body>
+</html>
+<!--  -->
